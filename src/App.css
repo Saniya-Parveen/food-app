@@ -1,0 +1,18 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.navbar input{
+  padding: 10px;
+}
+
+@media (max-width: 576px){
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar input {
+    margin-top: 20px;
+  }
+}
