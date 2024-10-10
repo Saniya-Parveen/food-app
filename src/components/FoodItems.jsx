@@ -9,6 +9,7 @@ export default function FoodItems() {
             FoodData.map((food)=>{
                 return(
                     <FoodCard
+                      id={food.id}
                       img={food.img}
                       name={food.name}
                       desc={food.desc}
